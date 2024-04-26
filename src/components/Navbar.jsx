@@ -26,7 +26,7 @@ const Navbar = () => {
             <Image className="max-w-[70%] sm:max-w-[80%]" src={logo} alt="logo" />{" "}
           </span>
         </div>{" "}
-        <div className="menu-icon md:mr-8" onClick={handleClick}>
+        <div className="menu-icon pr-8" onClick={handleClick}>
           {active ? <RxCross2 /> : <FaBars />}
         </div>
         <div className={active ? "nav-menu active" : "nav-menu pt-1  lg:pl-0"}>
